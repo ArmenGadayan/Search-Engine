@@ -1,0 +1,25 @@
+Bad:
+computer science
+software engineering
+master of software engineering
+machine learning
+informatics
+hackathon
+search engine
+artificial intelligence
+doctor
+unit test
+
+Good:
+cristina lopes
+dillencourt
+thornton
+pintos
+operating systems
+c++
+quantum computing
+uci esports
+amiri sani
+recursive maze solver
+
+The bad queries weren't giving the best results because they weren't ranking the most relevant pages at the top. These queries are very general and produce many results, therefore the ranking system wasn't effectively distinguishing between good and bad websites. To fix this we removed the log operation on the tf score and used the raw frequency as the tf score. This made it so that documents where terms were in the title or heading were ranked much higher.
